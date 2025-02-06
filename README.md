@@ -1,2 +1,1 @@
 # Blackjack
-Pretty Straight forward
