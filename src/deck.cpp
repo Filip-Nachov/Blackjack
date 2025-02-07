@@ -18,6 +18,14 @@ std::map<char, int> cardValues = {
 
 char cards[] = {'A', '2', '3', '4', '5', '6', '7', '8', '9', 'Q', 'K', 'J'};
 
-std::vector<int> RandomCards(std::vector<int> Deck, int cardCount) {
+std::vector<char> RandomCards(std::vector<char> Deck, int cardCount) {
+   int card;
+
+   for (int i = 0; i < cardCount; i++) {
+	card = rand() % 13;
+
+	Deck.push_back(cards[card]);
+   }
+
    return Deck;
 }
