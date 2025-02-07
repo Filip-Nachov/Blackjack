@@ -1,7 +1,7 @@
 #include "headers/main.h"
 
 
-std::map<char, int> cards = {
+std::map<char, int> cardValues = {
 	{'A', 1},
 	{'2', 2},
 	{'3', 3},
@@ -16,3 +16,8 @@ std::map<char, int> cards = {
 	{'J', 10},
 };
 
+char cards[] = {'A', '2', '3', '4', '5', '6', '7', '8', '9', 'Q', 'K', 'J'};
+
+void RandomCards() {
+     
+}
